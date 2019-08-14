@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*
- * STUDENT NAME: 
- * STUDENT ID:
+ * STUDENT NAME: shiwangi jaura
+ * STUDENT ID: 301044130
  * DESCRIPTION: This is the Hero Data Container Class
  */
 
@@ -153,7 +153,7 @@ namespace COMP123_S2019_FinalTestA.Objects
         List<Power> Powers;
 
         // Constructor
-        Hero()
+         public Hero()
         {
             // instantiates an empty Power List
             Powers = new List<Power>();

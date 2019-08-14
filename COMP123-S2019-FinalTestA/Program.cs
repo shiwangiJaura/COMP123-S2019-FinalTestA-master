@@ -10,6 +10,7 @@ namespace COMP123_S2019_FinalTestA
     static class Program
     {
         public static HeroGenerator heroGenerator;
+        public static AboutForm aboutForm;
 
 
         /// <summary>
@@ -22,6 +23,7 @@ namespace COMP123_S2019_FinalTestA
             Application.SetCompatibleTextRenderingDefault(false);
 
             heroGenerator = new HeroGenerator();
+            aboutForm = new AboutForm();
 
             Application.Run(heroGenerator);
         }
